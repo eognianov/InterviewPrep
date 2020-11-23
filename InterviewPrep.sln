@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpingOnTheClouds", "Jumpi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatedString", "RepeatedString\RepeatedString.csproj", "{97814FE0-B2F8-48C8-8D2A-D981ECBDB950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrayDS", "2DArrayDS\2DArrayDS.csproj", "{D16681A9-E369-446F-B189-525D586F17CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArrayDS", "2DArrayDS\2DArrayDS.csproj", "{D16681A9-E369-446F-B189-525D586F17CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftRotation", "LeftRotation\LeftRotation.csproj", "{DEF44254-2C04-4D76-8007-A26542B41850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftRotation", "LeftRotation\LeftRotation.csproj", "{DEF44254-2C04-4D76-8007-A26542B41850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote", "RansomNote\RansomNote.csproj", "{862B9FF2-441E-4FD4-A181-2066969C3889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,18 @@ Global
 		{DEF44254-2C04-4D76-8007-A26542B41850}.Release|x64.Build.0 = Release|Any CPU
 		{DEF44254-2C04-4D76-8007-A26542B41850}.Release|x86.ActiveCfg = Release|Any CPU
 		{DEF44254-2C04-4D76-8007-A26542B41850}.Release|x86.Build.0 = Release|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Debug|x64.Build.0 = Debug|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Debug|x86.Build.0 = Debug|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Release|x64.ActiveCfg = Release|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Release|x64.Build.0 = Release|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Release|x86.ActiveCfg = Release|Any CPU
+		{862B9FF2-441E-4FD4-A181-2066969C3889}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
