@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace MinimumAbsoluteDifferenceInAnArray
 {
@@ -18,30 +19,12 @@ namespace MinimumAbsoluteDifferenceInAnArray
         private static int minimumAbsoluteDifference(int[] arr)
         {
             int minDiff = int.MaxValue;
+            Array.Sort(arr);
 
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 1; i < arr.Length; i++)
             {
-                for (int j = 0; j < arr.Length; j++)
-                {
-                    if (i==j)
-                    {
-                        continue;
-                    }
-
-                    int diff = Math.Abs(arr[i] - arr[j]);
-
-                    if (diff==1)
-                    {
-                        return diff;
-                    }
-
-                    if (diff<minDiff)
-                    {
-                        minDiff = diff;
-                    }
-                }
+                minDiff = Math.Min(minDiff, Math.Abs(arr[i] - arr[i - 1]));
             }
-
             return minDiff;
         }
     }
